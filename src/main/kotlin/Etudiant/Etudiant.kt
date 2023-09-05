@@ -18,7 +18,7 @@ fun main() {
     etudiant.nom = readLine() ?: ""
 
     print("Age : ")
-    etudiant.age = (readlnOrNull() ?: "") as Int
+    etudiant.age = (readlnOrNull() ?: 0) as Int
 
     print("Numero Etudiant : ")
     etudiant.numeroEtudiant = readLine() ?: ""
